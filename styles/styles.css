@@ -10,7 +10,7 @@ nav a {
 h1 {
     color: steelblue;
 }
-img {
+#headshot {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -22,4 +22,7 @@ p {
 }
 main {
     max-width: 840px;
+}
+#flag {
+    
 }
