@@ -41,9 +41,9 @@ aside img{
     height: auto;
 }
 aside h2 {
-    position:absolute;
-    top: 47px;
-    left: 150px;
+    position:relative;
+    top: 0px;
+    left: 75px;
   }
 
 footer {
