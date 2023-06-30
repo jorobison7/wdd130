@@ -49,16 +49,16 @@ footer {
 
   /* Styles for the box class */
   .box {
-    margin: 1rem; /* Added margin */
-    padding: 1rem; /* Added padding */
-    border: 1px solid rgb(153, 198, 241); /* Added border */
-    background-color: #cee8f3; /* Custom background color */
-    color: #03052c; /* Custom text color */
+    margin: 1rem; 
+    padding: 1rem;
+    border: 1px solid rgb(153, 198, 241);
+    background-color: #cee8f3;
+    color: #03052c;
   }
   aside {
-    margin: 1rem; /* Added margin */
-    padding: 1rem; /* Added padding */
-    border: 1px solid rgb(153, 198, 241); /* Added border */
-    background-color: #cee8f3; /* Added background color */
-    color: #03052c; /* Added text color */
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(153, 198, 241);
+    background-color: #cee8f3;
+    color: #03052c;
   }
