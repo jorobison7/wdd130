@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
 nav {
-    background-color: steelblue;
+    background-color: rgb(170, 205, 233);
     padding: 10px;
 }
 nav a {
@@ -13,12 +13,12 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    color: rgb(177, 205, 233);
 }
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid rgb(177, 205, 233);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
