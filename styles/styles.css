@@ -45,3 +45,20 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+/*Class Selectors*/
+
+  /* Styles for the box class */
+  .box {
+    margin: 1rem; /* Added margin */
+    padding: 1rem; /* Added padding */
+    border: 1px solid rgb(153, 198, 241); /* Added border */
+    background-color: #cee8f3; /* Custom background color */
+    color: #03052c; /* Custom text color */
+  }
+  aside {
+    margin: 1rem; /* Added margin */
+    padding: 1rem; /* Added padding */
+    border: 1px solid rgb(153, 198, 241); /* Added border */
+    background-color: #cee8f3; /* Added background color */
+    color: #03052c; /* Added text color */
+  }
