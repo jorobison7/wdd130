@@ -40,6 +40,12 @@ aside img{
     width: 200px;
     height: auto;
 }
+aside h2 {
+    position:absolute;
+    top: 47px;
+    left: 150px;
+  }
+
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;
