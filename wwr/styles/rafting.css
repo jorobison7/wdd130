@@ -47,7 +47,7 @@ body {
 
 .hero h1 {
     position: absolute;
-    top: 30%;
+    top: -10%;
     left: 20%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -55,14 +55,14 @@ body {
   
   .hero article {
     position: absolute;
-    top: 70%;
+    top: 1125%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
   }
   .hero h2 {
     position: absolute;
-    top: 90%;
+    top: 200%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
