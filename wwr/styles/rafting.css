@@ -1,9 +1,5 @@
-/* rafting.css */
 
-/* Importing Google Fonts */
 @import url('https://coolors.co/52489c-4062bb-59c3c3-ebebeb-f45b69');
-
-/* CSS variables */
 :root {
   --primary-color: #123456;  
   --secondary-color: #789abc; 
