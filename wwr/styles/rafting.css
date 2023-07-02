@@ -5,39 +5,32 @@
 
 /* CSS variables */
 :root {
-  --primary-color: #123456;  /* Replace with your selected primary color */
-  --secondary-color: #789abc;  /* Replace with your selected secondary color */
-  --font-family: 'YourSelectedFont1', sans-serif;  /* Replace with your selected font family */
+  --primary-color: #123456;  
+  --secondary-color: #789abc; 
+  --font-family: 'Ysabeau SC', sans-serif;
 }
 
 /* Heading and paragraph styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family);
-  color: var(--primary-color);
-  /* Add additional styling as needed */
-}
+  font-family: var(Ysabeau SC);
+  color: var(4062BB);
 
 p {
-  font-family: var(--font-family);
-  color: var(--secondary-color);
-  /* Add additional styling as needed */
+  font-family: var(Ysabeau SC);
+  color: var(59C3C3);
 }
-
 /* Font colors */
 .hero h1 {
-  color: var(--primary-color);
+  color: var(4062BB);
 }
-
 section h2 {
-  color: var(--secondary-color);
+  color: var(59C3C3);
 }
 
-/* Remove underlines from social media links */
 footer a {
   text-decoration: none;
 }
 
-/* Limit page width */
 body {
   max-width: 1200px; /* Adjust the value to your desired width */
   margin: 0 auto; /* Center the content horizontally */
