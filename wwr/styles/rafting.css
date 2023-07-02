@@ -45,7 +45,7 @@ body {
 
 .hero h1 {
   position: absolute;
-  top: -250%;
+  top: -65%;
   left: 20%;
   transform: translate(-50%, -50%);
   z-index: 1;
