@@ -1,25 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap');
+
 :root {
-  --primary-color: #4062BB;  
-  --secondary-color: #59C3C3; 
+  --primary-color: #4062BB;
+  --secondary-color: #59C3C3;
   --font-family: 'Ysabeau SC', sans-serif;
 }
 
 /* Heading and paragraph styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(Ysabeau SC);
-  color: var(4062BB);
+  font-family: var(--font-family);
+  color: var(--primary-color);
+}
 
 p {
-  font-family: var(--Ysabeau SC);
-  color: var(59C3C3);
+  font-family: var(--font-family);
+  color: var(--secondary-color);
 }
+
 /* Font colors */
 .hero h1 {
-  color: var(4062BB);
+  color: var(--primary-color);
 }
+
 section h2 {
-  color: var(59C3C3);
+  color: var(--secondary-color);
 }
 
 footer a {
@@ -30,37 +34,31 @@ body {
   max-width: 1200px; /* Adjust the value to your desired width */
   margin: 0 auto; /* Center the content horizontally */
 }
+
 .hero {
-    position: relative;
-  }
-  
-  .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .hero h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    /* Additional styles for the heading */
-  }
-  
-  .hero article {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    /* Additional styles for the article */
-  }
+  position: relative;
+}
 
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  /* Additional styles for the heading */
+}
 
-
-
-
-
+.hero article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  /* Additional styles for the article */
+}
