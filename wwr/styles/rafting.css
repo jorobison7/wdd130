@@ -24,11 +24,8 @@ body {
   max-width: 900px; 
   margin: 0 auto; 
 }
-.hero {
-  position: relative;
-}
 .heroimage img {
-  positon: absolute;
+  position: relative;
   display: block;
   width: 100%;
   height: auto;
@@ -40,10 +37,10 @@ body {
     background-color: var(--background-color);
     padding: 20px;
   }
-  .happyclient img {
-    
-  }
-
+  .happyclient {
+    float: right;
+    width: 200px;
+    padding: 20px;
   }
   .hero article {
     position: absolute;
