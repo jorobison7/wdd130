@@ -49,6 +49,7 @@ main img {
 }
 p {
     padding: 0;
+    text-align: left;
 }
 main {
     max-width: 840px;
