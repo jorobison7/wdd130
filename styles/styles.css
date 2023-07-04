@@ -70,8 +70,11 @@ aside h2 {
     position:relative;
     top: 0px;
     left: 75px;
-  }
-
+}
+    footer {
+        border-top: 2px solid #1d64b1; 
+        text-align: center;
+      }
 
 /*Class Selectors*/
 
