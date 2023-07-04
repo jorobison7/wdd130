@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+  header, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
 nav {
     background-color: rgb(170, 205, 233);
     padding: 1rem;
@@ -53,10 +57,7 @@ aside h2 {
     left: 75px;
   }
 
-header, footer {
-    max-width: 840px;
-    margin: 0 auto;
-}
+
 /*Class Selectors*/
 
   /* Styles for the box class */
