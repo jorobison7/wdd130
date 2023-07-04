@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: var(--font-family);
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .hero h1 {
