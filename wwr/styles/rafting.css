@@ -18,7 +18,7 @@ p {
 }
 
 .hero h1 {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 section h2 {
