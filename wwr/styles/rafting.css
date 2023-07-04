@@ -27,7 +27,8 @@ body {
 .hero {
   position: relative;
 }
-.hero img {
+.heroimage img {
+  positon: absolute;
   display: block;
   width: 100%;
   height: auto;
@@ -38,6 +39,11 @@ body {
     left: 20px;
     background-color: var(--background-color);
     padding: 20px;
+  }
+  .happyclient img {
+    
+  }
+
   }
   .hero article {
     position: absolute;
