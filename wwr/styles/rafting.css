@@ -9,7 +9,7 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family);
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 p {
@@ -31,22 +31,15 @@ body {
 }
 
 .hero img {
+  display: block;
   width: 100%;
   height: auto;
-  position: relative;
-  z-index: 1;
 }
-
 .hero h1 {
     position: absolute;
-   
   }
-  
   .hero article {
     position: absolute;
-    top: 1125%;
-    left: 50%;
-    z-index: 2;
   }
   .hero h2 {
     position: absolute;
