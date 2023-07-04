@@ -20,16 +20,13 @@ p {
 footer a {
   text-decoration: none;
 }
-
 body {
   max-width: 900px; 
   margin: 0 auto; 
 }
-
 .hero {
   position: relative;
 }
-
 .hero img {
   display: block;
   width: 100%;
