@@ -1,13 +1,4 @@
- relative;
-}
-.heroimage {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: auto;
-}
 .hero h1 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap');
-
 :root {
   --primary-color: #4062BB;
   --secondary-color: #59C3C3;
@@ -33,11 +24,17 @@ body {
   margin: 0 auto; 
 }
 .hero {
-    position: absolute;
+    position: relative;
     top: 10px;
     left: 20px;
     background-color: var(--background-color);
     padding: 20px;
+  }
+  .heroimage {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
   }
   .happyclient {
     float: right;
