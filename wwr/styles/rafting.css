@@ -27,7 +27,7 @@ body {
 .hero {
   position: relative;
 }
-.heroimage img {
+.heroimage {
   position: relative;
   display: block;
   width: 100%;
