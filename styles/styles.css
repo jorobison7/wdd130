@@ -92,4 +92,6 @@ aside h2 {
     border: 1px solid rgb(153, 198, 241);
     background-color: #cee8f3;
     color: #03052c;
-  }
+    footer p {
+        text-align: center;
+      }  
