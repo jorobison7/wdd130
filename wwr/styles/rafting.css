@@ -28,6 +28,9 @@ nav img {
   width: 100px;
   height: auto;
 }
+header {
+  border-bottom: 2px solid #4062BB; 
+}
 h1 {
   text-align: center;
   margin: 0;
@@ -104,9 +107,17 @@ body {
     margin-top: 5px;
     font-size: 0.9rem;
   }
-  .social-icons .icon {
-    font-size: 5px; 
+  footer {
+    border-top: 2px solid #4062BB;
+    text-align: center;
   }
+  
+  
+  
+  
+  
+  
+  
 
   
   
