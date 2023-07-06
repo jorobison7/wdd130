@@ -81,4 +81,33 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
   }
+  section.adventures {
+    text-align: center;
+  }
+  section.adventures h2 {
+    color: var(--primary-color);
+  }
+  section.adventures .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  section.adventures figure {
+    margin: 0;
+  }
+  section.adventures img {
+    width: 100%;
+    height: auto;
+  }
+  section.adventures figcaption {
+    margin-top: 5px;
+    font-size: 0.9rem;
+  }
+
+  
+  
+  
+  
+  
   
