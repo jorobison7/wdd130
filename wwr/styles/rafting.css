@@ -37,6 +37,7 @@ body {
   position: absolute;
   top: 10px;
   left: 20px;
+  background-color: var(--background-color);
   padding: 20px;
 }
 .happyclient {
@@ -48,6 +49,7 @@ body {
     position: absolute;
     top: 100px;
     left: 150px;
+    background-color: var(--background-color);
     padding: 20px;
   }
   .hero h2 {
