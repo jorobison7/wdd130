@@ -32,29 +32,22 @@ body {
   width: 100%;
   height: auto;
 }
-.hero h1{
+.hero h1 {
   position: absolute;
   top: 10px;
   left: 20px;
   padding: 20px;
 }
-.hero img {
-  display: block;
-  width: 100%;
-  height: auto;
-  position: relative;
-  z-index: 1;
+.happyclient {
+  float: right;
+  width: 200px;
+  padding: 20px;
 }
-.hero h1 {
-    position: absolute;
-    top: -10%;
-    left: 20%;
-  }
   .hero article {
     position: absolute;
-    top: 1125%;
-    left: 50%;
-    z-index: 2;
+    top: 100px;
+    left: 150px;
+    padding: 20px;
   }
   .hero h2 {
     position: absolute;
