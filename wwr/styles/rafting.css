@@ -67,6 +67,7 @@ body {
   left: 20px;
   background-color: rgba(255, 255, 255, 0.1);
   padding: 20px;
+  z-index: 2;
 }
 .happyclient {
   float: right;
@@ -80,9 +81,4 @@ body {
     background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
   }
-  .hero h2 {
-    position: absolute;
-    top: 200%;
-    left: 50%;
-    z-index: 2;
-  }
+  
