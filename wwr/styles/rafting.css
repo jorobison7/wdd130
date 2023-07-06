@@ -13,6 +13,27 @@ p {
   font-family: var(--font-family);
   color: var(--secondary-color);
 }
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 100px;
+  height: auto;
+}
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  margin-right: 10px;
+}
+
 .hero h1 {
   color: var(--primary-color);
 }
