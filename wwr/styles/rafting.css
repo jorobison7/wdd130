@@ -26,6 +26,9 @@ body {
   max-width: 900px;
   margin: 0 auto;
 }
+.hero {
+  position: relative;
+}
 .heroimage {
   position: relative;
   display: block;
