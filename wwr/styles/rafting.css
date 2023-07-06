@@ -33,7 +33,6 @@ nav a {
   color: var(--secondary-color);
   margin-right: 10px;
 }
-
 .hero h1 {
   color: var(--primary-color);
 }
@@ -56,7 +55,7 @@ body {
   width: 100%;
   height: auto;
 }
-.hero h1 {
+.hero h2 {
   position: absolute;
   top: 10px;
   left: 20px;
