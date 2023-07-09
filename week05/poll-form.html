@@ -15,12 +15,25 @@
         <fieldset>
             <legend>Contact Information</legend>
             <label for="fullname">Full Name:</label><br>
-            <input type="text" id="fullname" name="fullname"><br>
+            <input type="select" id="fullname" name="fullname"><br>
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="useremail">
         </fieldset>
+        <fieldset>
             <legend>Questions</legend>
-        </fieldset>
+            <label for="browser">What is your favorite browser?</label><br>
+            <select id="browser" name="browser">
+              <option value="chrome">Google Chrome</option>
+              <option value="firefox">Mozilla Firefox</option>
+              <option value="safari">Apple Safari</option>
+              <option value="edge">Microsoft Edge</option>
+            </select><br>
+            <label for=""pet">Do you have a household pet?</label><br>
+            <input type=""checkbox" id=""pet" name=""pet><br>
+            <label for=""places">List the places you have lived:</label><br>
+            <textarea id=""places" name=""places" placeholder="Enter your list of places"></textarea>
+
+        </fieldset>     
      </form>
     </main>
     <footer>
