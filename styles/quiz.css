@@ -10,16 +10,6 @@ body {
     color: #333;
     background: #fff;
 }
-header {
-    margin: auto;
-    width: 650px;
-}
-h1 {
-    margin: 1rem;
-    font-size: 1.5em;
-    color: rgb(13, 13, 194);
-    text-align: center;
-}
 form {
     width: 650px;
     margin: 0 auto;
