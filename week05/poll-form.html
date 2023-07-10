@@ -14,22 +14,30 @@
      <form>
         <fieldset>
             <legend>Contact Information</legend>
-            <label for="fullname">Full Name:</label><br>
-            <input type="text" id="fullname" name="fullname"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="useremail">
+            <div class="form-item column2">
+             <label for="fullname">Full Name:</label>
+             <input type="text" id="fullname" name="fullname">
+            </div>
+            <div class="form-item column2">
+             <label for="email">Email:</label><br>
+             <input type="email" id="email" name="useremail">
+            </div>
         </fieldset>
         <fieldset>
             <legend>Questions</legend>
-            <label for="browser">What is your favorite internet browser?</label><br>
-            <select id="browser" name="browser">
-              <option value="chrome">Chrome</option>
-              <option value="firefox">Firefox</option>
-              <option value="safari">Safari</option>
-              <option value="edge">Edge</option>
-            </select><br>
-            <label for="pet">Do you have a household pet?</label>
-            <input type="checkbox" id="pet" name="pet"><br>
+            <div class="form-item column1">
+              <label for="browser">What is your favorite internet browser?</label><br>
+              <select id="browser" name="browser">
+                <option value="chrome">Chrome</option>
+                <option value="firefox">Firefox</option>
+                <option value="safari">Safari</option>
+                <option value="edge">Edge</option>
+              </select>
+            </div>
+            <div class="form-item column1">
+              <label for="pet">Do you have a household pet?</label>
+              <input type="checkbox" id="pet" name="pet">
+            </div>
             <label for="feedback">List the places you have lived:</label><br>
             <textarea id="feedback" name="feedback" placeholder="Rexburg, Idaho, Sabadell, Spain, Flowell, Utah"></textarea>
         </fieldset> 
