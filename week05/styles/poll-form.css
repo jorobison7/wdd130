@@ -21,11 +21,11 @@ h1 {
     text-align: center;
 }
 form {
-    width:650px;
-    margin: centered;
+    width: 650px;
+    margin: 0 auto;
     padding: 1rem;
-    border: 2px solid #4d3838;
-    border-radius: 0.9;
+    border: 1px solid #4d3838;
+    border-radius: 0.9rem;
     background-color: #eee;
     display: grid;
 }
@@ -33,7 +33,7 @@ fieldset {
     display: grid;
     grid-gap: .5rem;
     margin: 1rem;
-    border: 1px solid rgba(0,0,0,.02);
+    border: 1px solid rgba(0,0,0,0.2);
     padding: 1rem;
 }
 legend {
@@ -63,7 +63,7 @@ button {
    color:aliceblue;
    border: none;
    border-radius: .5rem;
-   padding: 75rem;
+   padding: .75rem;
    font-size: 1.2;
 }
 button:hover {
