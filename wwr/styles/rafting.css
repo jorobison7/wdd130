@@ -14,10 +14,27 @@ p {
   color: var(--secondary-color);
 }
 header {
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   padding: 10px;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+ margin-right: 10px;
+}
+header h1 {
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: center;
+}
+header nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 nav {
   display: flex;
