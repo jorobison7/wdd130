@@ -132,6 +132,21 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     width: 100%;
   }
+  .contact-box h2 {
+    color: white;
+    margin-top: 0;
+  }
+  .contact-box p {
+    color: white;
+  }
+  .contact-box a {
+    color: white;
+    text-decoration: none;
+  }
+  .contact-box a:hover {
+    text-decoration: underline;
+  }
+
   footer {
     border-top: 2px solid #4062BB;
     text-align: center;
