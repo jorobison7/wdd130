@@ -5,13 +5,7 @@
   --background-color: #fff;
   --font-family: 'Ysabeau SC', sans-serif;
 }
-.contact-box {
-  background-color: #38495a;
-  color: white;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  width: 100%;
-}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family);
   color: var(--primary-color);
@@ -131,10 +125,6 @@ body {
     margin-top: 5px;
     font-size: 0.9rem;
   }
-  footer {
-    border-top: 2px solid #4062BB;
-    text-align: center;
-  }
   .contact-box {
     background-color: #38495a;
     color: white;
@@ -142,3 +132,8 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     width: 100%;
   }
+  footer {
+    border-top: 2px solid #4062BB;
+    text-align: center;
+  }
+ 
