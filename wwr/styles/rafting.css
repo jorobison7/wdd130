@@ -166,8 +166,32 @@ body {
       width: 100%;
     }
   }
+  .team-container {
+    text-align: center;
+  }
+  .team-members {
+    display: flex;
+    justify-content: center;
+  }
+  .team-members figure {
+    margin: 0 10px;
+  }
+  .team-members img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .team-members figcaption {
+    margin-top: 5px;
+  }
   footer {
     border-top: 2px solid #4062BB;
     text-align: center;
   }
+  
+  
+  
+  
+  
+  
  
