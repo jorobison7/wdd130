@@ -233,7 +233,38 @@ body {
     border-top: 2px solid #4062BB;
     text-align: center;
   }
+  .trips-banner {
+    position: relative;
+  }
   
+  .trips-banner img {
+    width: 100%;
+  }
+  
+  .trips-banner .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .trips-banner .banner-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .trips-banner .banner-content p {
+    font-size: 18px;
+  }
+  
+  
+  
+  
+  
+  
+   
   
   
   
