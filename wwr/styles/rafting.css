@@ -259,6 +259,96 @@ body {
     text-align: center;
     margin-top: 20px;
   }
+  .boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .box {
+    flex-basis: calc(33.33% - 20px);
+    text-align: center;
+  }
+  
+  .box img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .box-caption {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  The CSS code above sets the display of the .boxes section as flex, with the justify-content property to evenly space the boxes. Each .box is given a flex-basis of one-third of the available space minus the margins, ensuring they are evenly distributed. The image inside each box is set to 100% width while maintaining its aspect ratio. The .box-caption class styles the captions with a margin and bold font weight.
+  
+  Feel free to adjust the CSS properties and styles to match your desired design and layout preferences.
+  
+  
+  
+  
+  
+  User
+  So those capital letter I s in my class names, should be Roman Numerals.  Do I need different html or css code so that is what they are?
+  ChatGPT
+  If you want to use Roman numerals in your class names, you can certainly make that change. Here's the modified HTML and CSS code using Roman numerals in the class names:
+  
+  HTML:
+  
+  html
+  Copy code
+  <main>
+    <section class="banner trips-banner">
+      <!-- Banner content -->
+    </section>
+  
+    <h1 class="adventure-heading">Wild Adventure Rafting with Euptopia's #1 White Water Rafting Outfitter</h1>
+  
+    <section class="boxes">
+      <div class="box">
+        <img src="images/class1.jpg" alt="Class I">
+        <div class="box-caption">Class I, leisurely fun</div>
+      </div>
+      <div class="box">
+        <img src="images/class2.jpg" alt="Class II">
+        <div class="box-caption">Class II, fun to do</div>
+      </div>
+      <div class="box">
+        <img src="images/class4.jpg" alt="Class IV">
+        <div class="box-caption">Class IV, I want more</div>
+      </div>
+    </section>
+  </main>
+  CSS:
+  
+  css
+  Copy code
+  .boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .box {
+    flex-basis: calc(33.33% - 20px);
+    text-align: center;
+  }
+  
+  .box img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .box-caption {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  
+  
+  
   
   
   
