@@ -236,11 +236,9 @@ body {
   .trips-banner {
     position: relative;
   }
-  
   .trips-banner img {
     width: 100%;
   }
-  
   .trips-banner .banner-content {
     position: absolute;
     top: 50%;
@@ -249,12 +247,10 @@ body {
     text-align: center;
     color: white;
   }
-  
   .trips-banner .banner-content h1 {
     font-size: 32px;
     margin-bottom: 20px;
   }
-  
   .trips-banner .banner-content p {
     font-size: 18px;
   }
