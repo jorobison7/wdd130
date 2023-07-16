@@ -254,7 +254,11 @@ body {
   .trips-banner .banner-content p {
     font-size: 18px;
   }
-  
+  .adventure-heading {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+  }
   
   
   
