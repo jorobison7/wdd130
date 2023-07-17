@@ -317,8 +317,20 @@ body {
     background-color: var(--primary-color);
     color: #fff;
   }  
-  
-  
+  .information {
+    position: relative;
+  }
+  .information img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .information p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color:#0f2a36 ;
+  }  
   
   
   
