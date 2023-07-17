@@ -277,32 +277,6 @@ body {
     margin-top: 10px;
     font-weight: bold;
   }
-  <main>
-    <section class="banner trips-banner">
-      <!-- Banner content -->
-    </section>
-  
-    <h1 class="adventure-heading">Wild Adventure Rafting with Euptopia's #1 White Water Rafting Outfitter</h1>
-  
-    <section class="boxes">
-      <div class="box">
-        <img src="images/class1.jpg" alt="Class I">
-        <div class="box-caption">Class I, leisurely fun</div>
-      </div>
-      <div class="box">
-        <img src="images/class2.jpg" alt="Class II">
-        <div class="box-caption">Class II, fun to do</div>
-      </div>
-      <div class="box">
-        <img src="images/class4.jpg" alt="Class IV">
-        <div class="box-caption">Class IV, I want more</div>
-      </div>
-    </section>
-  </main>
-  CSS:
-  
-  css
-  Copy code
   .boxes {
     display: flex;
     justify-content: space-between;
