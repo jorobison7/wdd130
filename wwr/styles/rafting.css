@@ -331,8 +331,78 @@ body {
     text-align: center;
     color:#0f2a36 ;
   }  
+  .newsletter {
+    background-color: #c2daeb;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .newsletter label {
+    font-family: var(--font-family);
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+  }
+  .newsletter input[type="text"],
+  .newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+  }
+  .newsletter .form-group {
+    display: flex;
+    align-items: center;
+  }
+  .newsletter .form-group input {
+    margin-left: 10px;
+  }
+  .newsletter button[type="submit"] {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .newsletter button[type="submit"]:hover {
+    background-color: #1E4FA2;
+  } 
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .grid-item {
+    text-align: center;
+  }
+  .grid-item img {
+    width: 100%;
+    height: auto;
+  }
+  .grid-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .grid-item p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+ 
   
   
+  
+  
+  
+  
+   
   
   
   
