@@ -161,6 +161,8 @@ body {
   }
   .map-container {
     width: 75%;
+    margin-left:auto;
+    margin-right:-75px;
   }
   @media (max-width: 768px) {
     .location-container {
@@ -209,9 +211,9 @@ body {
     flex: 0 0 45%; 
   }
   .message {
-    width: 100%;
+    width: 99%;
     background-color: #4062BB;
-    padding: 20px;
+    padding: 3px;
     color: #fff;
   }
   textarea {
